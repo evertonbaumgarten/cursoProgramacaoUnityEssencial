@@ -11,6 +11,10 @@ public class ShipBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+            Debug.Log("Move para Esquerda");
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+            Debug.Log("Move para Direita");
+    }
 }
