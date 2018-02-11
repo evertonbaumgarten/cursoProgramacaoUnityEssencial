@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ShipBehaviour : MonoBehaviour {
 
-
-	// Use this for initialization
+    // Use this for initialization
 	void Start () {
 		
 	}
@@ -13,9 +12,13 @@ public class ShipBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-            transform.Translate(Vector2.left);
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
-            transform.Translate(Vector2.right);
+        Vector2 currentPosition = transform.position;
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+            currentPosition.x -= 0.5f;
+        else if (Input.GetKey(KeyCode.RightArrow))
+            currentPosition.x +=  0.5f;
+
+        transform.position = currentPosition;
     }
 }
