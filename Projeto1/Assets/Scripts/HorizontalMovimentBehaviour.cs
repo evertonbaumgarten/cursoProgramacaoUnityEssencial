@@ -13,9 +13,9 @@ public class HorizontalMovimentBehaviour : MonoBehaviour {
 	void Update () {
         Vector2 currentPosition = transform.position;
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
             currentPosition.x = currentPosition.x + 1;
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow))
             currentPosition.x = currentPosition.x - 1;
 
         transform.position = currentPosition;
