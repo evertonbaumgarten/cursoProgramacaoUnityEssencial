@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 7a9715a48fcf2904785dda1cbeded442
+  productGUID: ff73840badacf4241bfd9177dec3b1b5
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -630,12 +630,11 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 65b9bca2-ca3b-4814-bd87-62ba76564cde
-  projectName: Projeto1
+  cloudProjectId: 4debed95-1e98-4004-b869-85752b5b617e
+  projectName: Projeto1 (1)
   organizationId: izyplay-game-studio
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
