@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HorizontalMovimentBehaviour : MonoBehaviour {
 
+    public float speed = 0.5f;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -14,9 +16,9 @@ public class HorizontalMovimentBehaviour : MonoBehaviour {
         Vector2 currentPosition = transform.position;
 
         if (Input.GetKey(KeyCode.RightArrow))
-            currentPosition.x = currentPosition.x + 1;
+            currentPosition.x += speed;
         else if (Input.GetKey(KeyCode.LeftArrow))
-            currentPosition.x = currentPosition.x - 1;
+            currentPosition.x -= speed;
 
         transform.position = currentPosition;
     }
