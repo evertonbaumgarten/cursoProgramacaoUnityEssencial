@@ -16,7 +16,7 @@ public class HorizontalAutoMovimentBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (transform.position.x > startPosition.x + distance || transform.position.x < startPosition.x - distance)
+        if (Mathf.Abs(transform.position.x) + startPosition.x > distance) 
             direction *= -1;
         transform.Translate(speed * direction, 0, 0);
 	}
