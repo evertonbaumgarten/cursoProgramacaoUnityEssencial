@@ -6,11 +6,6 @@ public class HorizontalMovimentBehaviour : MonoBehaviour {
 
     public float speed = 0.5f;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
         Vector2 currentPosition = transform.position;

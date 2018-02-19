@@ -284,6 +284,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\HorizontalAutoMovimentBehaviour.cs" />
     <Compile Include="Assets\Scripts\HorizontalInputMovimentBehaviour.cs" />
+    <Compile Include="Assets\Scripts\MyFirstScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
