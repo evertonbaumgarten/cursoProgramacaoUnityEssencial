@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HorizontalMovimentBehaviour : MonoBehaviour {
+public class HorizontalInputMovimentBehaviour : MonoBehaviour {
 
     public float speed = 0.5f;
 
