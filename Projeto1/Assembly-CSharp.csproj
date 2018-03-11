@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallBehaviour.cs" />
+     <Compile Include="Assets\Scripts\BrickBehaviour.cs" />
      <Compile Include="Assets\Scripts\HorizontalAutoMovimentBehaviour.cs" />
      <Compile Include="Assets\Scripts\HorizontalInputMovimentBehaviour.cs" />
      <Compile Include="Assets\Scripts\HorizontalInputPhysicMovimentBehaviour.cs" />
@@ -118,9 +119,6 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Everton/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
