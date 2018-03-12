@@ -78,7 +78,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb834c2b8b8170a48a619263a5345cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageColor: []
+  damageColor:
+  - {r: 1, g: 0.6827586, b: 0, a: 0.509}
+  - {r: 1, g: 0, b: 0, a: 0.459}
+  - {r: 0.4705882, g: 0.4705882, b: 0.4705882, a: 0.478}
   maxHits: 1
 --- !u!212 &212650300555204224
 SpriteRenderer:
