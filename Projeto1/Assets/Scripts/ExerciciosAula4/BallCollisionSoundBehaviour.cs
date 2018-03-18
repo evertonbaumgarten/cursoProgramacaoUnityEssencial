@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class BallCollisionSoundBehaviour : MonoBehaviour {
     public AudioSource soundFXWall;
-    public AudioSource soundFXBrick;
+    public AudioSource soundFXBrickHit;
+    public AudioSource soundFXBrickBroken;
     public AudioSource soundTrack;
 
     private void Start()
@@ -17,7 +18,10 @@ public class BallCollisionSoundBehaviour : MonoBehaviour {
         if (collision.collider.tag == "Wall" || collision.collider.tag == "Paddle")
             soundFXWall.Play();
         else if (collision.collider.tag == "Brick")
-            soundFXBrick.Play();
+            if(collision.collider.gameObject.GetComponent<BrickCrackBehaviour>().getLife() > 1)
+                soundFXBrickHit.Play();
+            else
+                soundFXBrickBroken.Play();
     }
     
 }

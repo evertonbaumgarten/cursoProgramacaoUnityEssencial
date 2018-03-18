@@ -9,15 +9,12 @@ public class HorizontalInputPhysicMovimentBehaviour : MonoBehaviour {
 
 	float width;
 
-	void Start()
-	{
-		width =  GetComponent<SpriteRenderer> ().size.x;
-	}
-
 	// Update is called once per frame
 	void Update () {
-		//Aqui ocorre uma atribuição por valor
-		Vector2 currentPosition = transform.position;
+
+        width = GetComponent<SpriteRenderer>().size.x;
+        //Aqui ocorre uma atribuição por valor
+        Vector2 currentPosition = transform.position;
 
 		if (Input.GetKey(KeyCode.RightArrow))
 			currentPosition.x += speed;

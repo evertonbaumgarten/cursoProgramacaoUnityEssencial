@@ -289,8 +289,10 @@
     <Compile Include="Assets\Scripts\ExerciciosAula3\HorizontalInputMovimentBehaviour.cs" />
     <Compile Include="Assets\Scripts\ExerciciosAula4\BallBehaviour.cs" />
     <Compile Include="Assets\Scripts\ExerciciosAula4\BallCollisionSoundBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ExerciciosAula4\GameManagerBehaviour.cs" />
     <Compile Include="Assets\Scripts\ExerciciosAula4\GameOverBehaviour.cs" />
     <Compile Include="Assets\Scripts\ExerciciosAula4\HorizontalInputPhysicMovimentBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ExerciciosAula4\SpecialItemBehaviour.cs" />
     <Compile Include="Assets\Scripts\ExerciciosAula4\StartMenuBehaviour.cs" />
     <Compile Include="Assets\Scripts\MyFirstScript.cs" />
   </ItemGroup>
