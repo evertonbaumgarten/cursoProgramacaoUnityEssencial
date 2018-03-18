@@ -738,6 +738,48 @@ Transform:
   m_PrefabParentObject: {fileID: 4281840680898380, guid: 16b5082b7ad28574b9d5e85fcfeae509,
     type: 2}
   m_PrefabInternal: {fileID: 496428561}
+--- !u!1001 &384977938
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.05754137
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.9667779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5d93a2ec847524d49b3ed7ff84403613, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &418896268 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4281840680898380, guid: a8e9ec9d7bff3ee40a8fb7ac5259092e,
@@ -1478,7 +1520,7 @@ Transform:
   - {fileID: 918975337}
   - {fileID: 2006739928}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1038653966
 Prefab:
@@ -2118,11 +2160,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551636341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -4.39, z: 0}
+  m_LocalPosition: {x: -0.07, y: -4.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1551636346
 MonoBehaviour:
@@ -2206,6 +2248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1738946869}
   - component: {fileID: 1738946870}
+  - component: {fileID: 1738946871}
   m_Layer: 0
   m_Name: LeftWall
   m_TagString: Untagged
@@ -2251,6 +2294,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.58, y: 9.92}
   m_EdgeRadius: 0
+--- !u!50 &1738946871
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1738946868}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1742792027
 Prefab:
   m_ObjectHideFlags: 0
@@ -2413,7 +2476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1810727206
 Transform:
   m_ObjectHideFlags: 0
@@ -2464,7 +2527,7 @@ Transform:
   - {fileID: 765584933}
   - {fileID: 2075724556}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1811149471 stripped
 Transform:
@@ -2614,7 +2677,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1936292614
 BoxCollider2D:
@@ -2660,7 +2723,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 2
 --- !u!1001 &1971123203
 Prefab:
   m_ObjectHideFlags: 0
