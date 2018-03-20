@@ -1,17 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManagerBehaviour : MonoBehaviour {
 
     public GameObject paddle;
     public GameObject specialItemPrefab;
     public int specialItemInterval;
+    public Text scorePanel;
+
+    private int totalPoints = 0;
 
     // Use this for initialization
-	void Start () {
+    void Start () {
         Invoke("createSpecialItem", 1);
-        
+        scorePanel.text = totalPoints.ToString();
     }
 	
 	protected void createSpecialItem()
@@ -31,5 +35,11 @@ public class GameManagerBehaviour : MonoBehaviour {
         paddle.GetComponent<BoxCollider2D>().size = paddleCurrentSize;
 
         Invoke("createSpecialItem", 1);
+    }
+
+    public void addPoint(int point)
+    {
+        totalPoints += point;
+        scorePanel.text = totalPoints.ToString();
     }
 }

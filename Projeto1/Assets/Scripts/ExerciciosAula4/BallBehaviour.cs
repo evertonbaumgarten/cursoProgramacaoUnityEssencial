@@ -7,6 +7,7 @@ public class BallBehaviour : MonoBehaviour {
 
 	// Use this for initialization
 	public float startSpeed;
+    public GameManagerBehaviour gameManager;
 
 	void Start () {
 
@@ -18,8 +19,16 @@ public class BallBehaviour : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-		print("OnTriggerEnter2D "+ other.name);
-		if(other.name == "Floor")
-			SceneManager.LoadScene ("GameOver");
+        if (other.name == "Floor")
+            SceneManager.LoadScene("GameOver");
+      
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Wall")
+            gameManager.addPoint(10);
+        else if (collision.collider.tag == "Brick")
+            gameManager.addPoint(20);
     }
 }

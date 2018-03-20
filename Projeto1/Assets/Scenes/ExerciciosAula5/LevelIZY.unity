@@ -1711,7 +1711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.5100098, y: -29}
+  m_AnchoredPosition: {x: 1.5100098, y: -26}
   m_SizeDelta: {x: 303.71, y: 49.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &902002390
@@ -1734,12 +1734,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 33
+    m_Font: {fileID: 12800000, guid: 99b2ce53eaf93d94e8e8dd20ada0d4ea, type: 3}
+    m_FontSize: 47
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 47
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2232,6 +2232,7 @@ MonoBehaviour:
   specialItemPrefab: {fileID: 1658629111634316, guid: 0eb9a47ded794224398d97e2f0bae2d8,
     type: 2}
   specialItemInterval: 0
+  scorePanel: {fileID: 902002390}
 --- !u!4 &1164884378 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613,
@@ -2730,6 +2731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSpeed: 6
+  gameManager: {fileID: 1113962585}
 --- !u!82 &1551636347
 AudioSource:
   m_ObjectHideFlags: 0
