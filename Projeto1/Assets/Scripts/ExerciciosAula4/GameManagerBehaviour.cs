@@ -63,6 +63,6 @@ public class GameManagerBehaviour : MonoBehaviour {
     public void addPoint(int point)
     {
         totalPoints += point;
-        //scorePanel.text = totalPoints.ToString();
+        scorePanel.text = totalPoints.ToString();
     }
 }
