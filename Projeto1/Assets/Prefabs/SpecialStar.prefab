@@ -20,11 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4784680402467454}
   - component: {fileID: 212686223776717180}
-  - component: {fileID: 114627430585364498}
   - component: {fileID: 61945185084017048}
   m_Layer: 0
   m_Name: SpecialStar
-  m_TagString: Untagged
+  m_TagString: SpecialItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,18 +66,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1175079, y: 1.0519289}
   m_EdgeRadius: 0
---- !u!114 &114627430585364498
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1658629111634316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d81dbe9ad8bc25e47b5c1a29fb15b172, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
 --- !u!212 &212686223776717180
 SpriteRenderer:
   m_ObjectHideFlags: 1

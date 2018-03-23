@@ -962,17 +962,17 @@ Prefab:
     - target: {fileID: 212650300555204224, guid: 5d93a2ec847524d49b3ed7ff84403613,
         type: 2}
       propertyPath: m_Color.g
-      value: 0.84540325
+      value: 0.8111561
       objectReference: {fileID: 0}
     - target: {fileID: 212650300555204224, guid: 5d93a2ec847524d49b3ed7ff84403613,
         type: 2}
       propertyPath: m_Color.r
-      value: 0.9485294
+      value: 0.9117647
       objectReference: {fileID: 0}
     - target: {fileID: 212650300555204224, guid: 5d93a2ec847524d49b3ed7ff84403613,
         type: 2}
       propertyPath: m_Color.b
-      value: 0.013948975
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114840059753718698, guid: 5d93a2ec847524d49b3ed7ff84403613,
         type: 2}
@@ -1662,7 +1662,7 @@ GameObject:
   - component: {fileID: 918975338}
   m_Layer: 0
   m_Name: Seeling
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2064,6 +2064,7 @@ MonoBehaviour:
   specialItemPrefab: {fileID: 1658629111634316, guid: 0eb9a47ded794224398d97e2f0bae2d8,
     type: 2}
   specialItemInterval: 0
+  scorePanel: {fileID: 0}
 --- !u!4 &1164884378 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4281840680898380, guid: 5d93a2ec847524d49b3ed7ff84403613,
@@ -2562,6 +2563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSpeed: 6
+  gameManager: {fileID: 1113962585}
 --- !u!82 &1551636347
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2732,7 +2734,7 @@ AudioSource:
   m_GameObject: {fileID: 1551636341}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 243910329250571092, guid: 4e20a286c9acba94794ee5a564d8b4c1,
+  OutputAudioMixerGroup: {fileID: 243437335791769838, guid: 4e20a286c9acba94794ee5a564d8b4c1,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: b7c63c1a65e408f46ba8edea7da438c8, type: 3}
   m_PlayOnAwake: 0

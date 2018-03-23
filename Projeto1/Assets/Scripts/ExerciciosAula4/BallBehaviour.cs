@@ -8,7 +8,7 @@ public class BallBehaviour : MonoBehaviour {
 	// Use this for initialization
 	public float startSpeed;
     public GameManagerBehaviour gameManager;
-
+    
 	void Start () {
 
         //Aplica uma força de 10 vezes para diagonal direita superior.
@@ -19,16 +19,13 @@ public class BallBehaviour : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.name == "Floor")
-            SceneManager.LoadScene("GameOver");
-      
+        gameManager.onBallHit(other);
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Wall")
-            gameManager.addPoint(10);
-        else if (collision.collider.tag == "Brick")
-            gameManager.addPoint(20);
+        gameManager.onBallHit(collision.collider);
+       
     }
 }
