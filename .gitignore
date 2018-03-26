@@ -2,6 +2,7 @@ Projeto1/Temp/
 Projeto1/Library/*
 Projeto1/.vs/
 Projeto2/Temp/
-Projeto2/Library/
+Projeto2/Library
+Projeto2/Library/*
 Projeto2/.vs/
 Projeto1/.vs/Projeto1/v15/Server/sqlite3/db.lock
