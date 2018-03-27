@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - player
-  - enemies
+  - Shoot
+  - Enemy
   layers:
   - Default
   - TransparentFX
