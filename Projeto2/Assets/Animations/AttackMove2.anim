@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AttackMove1
+  m_Name: AttackMove2
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -24,15 +24,15 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 1.0333333
-        value: {x: 0, y: 0, z: 206.65}
+        value: {x: 0, y: 0, z: 180}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 1.9666667
-        value: {x: 0, y: 0, z: 190.66599}
-        inSlope: {x: 0, y: 0, z: -32.509846}
-        outSlope: {x: 0, y: 0, z: -32.509846}
+        value: {x: 0, y: 0, z: 180}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 3
@@ -303,15 +303,15 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 1.0333333
-        value: 206.65
+        value: 180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 1.9666667
-        value: 190.66599
-        inSlope: -32.509846
-        outSlope: -32.509846
+        value: 180
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 3
@@ -360,4 +360,11 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 1.5
+    functionName: ShootPlayer
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

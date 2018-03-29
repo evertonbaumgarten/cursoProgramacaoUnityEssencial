@@ -29,14 +29,13 @@ public class EnemyBehaviour : MonoBehaviour {
         projectileTemp.GetComponent<ProjectileBehaviour>().Shoot(transform.position, Vector2.down, projectileSpeed);
 
         int random = Random.Range(3, 15);
-        if (random > 12)
-            Invoke("ShootPlayer", random);
-        else
-            Invoke("Attack", random);
+        Invoke("Attack", random);
     }
 
     private void Attack()
     {
         GetComponent<Animator>().SetTrigger("attack");
+        int random = Random.Range(3, 15);
+        Invoke("ShootPlayer", random);
     }
 }
