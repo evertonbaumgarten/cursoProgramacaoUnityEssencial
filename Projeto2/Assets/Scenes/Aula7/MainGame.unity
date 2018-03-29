@@ -368,41 +368,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95668764195624120, guid: 05587b48ca3e7d841822e3a22386acb8,
-        type: 2}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1837218985137184, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
       propertyPath: m_Name
       value: EnemyShip01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 82821621573136278, guid: 05587b48ca3e7d841822e3a22386acb8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4871053042910536, guid: 05587b48ca3e7d841822e3a22386acb8, type: 2}
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
