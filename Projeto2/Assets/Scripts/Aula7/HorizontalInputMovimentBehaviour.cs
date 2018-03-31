@@ -17,10 +17,12 @@ public class HorizontalInputMovimentBehaviour : MonoBehaviour {
     void Update () {
         Vector2 currentPosition = transform.position;
 
-        if (Input.GetKey(KeyCode.RightArrow) && currentPosition.x+width < maxX)
+        if (Input.GetKey(KeyCode.RightArrow))
             currentPosition.x += speed;
-        else if (Input.GetKey(KeyCode.LeftArrow) && currentPosition.x - width > minX)
+        else if (Input.GetKey(KeyCode.LeftArrow))
             currentPosition.x -= speed;
+        
+        currentPosition.x = Mathf.Clamp(currentPosition.x, minX, maxX);
 
         transform.position = currentPosition;
     }
