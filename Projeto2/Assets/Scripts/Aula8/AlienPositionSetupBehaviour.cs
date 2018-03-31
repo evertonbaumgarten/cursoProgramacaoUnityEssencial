@@ -8,7 +8,6 @@ public class AlienPositionSetupBehaviour : MonoBehaviour {
 
     private void OnDrawGizmos()
     {
-        Debug.Log((int)alienType);
-        Gizmos.DrawWireSphere(transform.position, 0.3f);
+         Gizmos.DrawWireSphere(transform.position, 0.3f);
     }
 }

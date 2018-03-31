@@ -2,13 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GalagaGameManager : MonoBehaviour {
     
     public static GalagaGameManager instance;
 
-
     public enum AlienType { AlienA, AlienB, AlienC, AlienD };
+
+    public Text scorePanel;
     public GameObject[] alienFormationList;
     public GameObject[] alienList;
     public GameObject[] playerShipIconList;
@@ -16,8 +19,12 @@ public class GalagaGameManager : MonoBehaviour {
 
     public int LevelId = 0;
 
+    protected int activeFormationIndex;
     protected int playerLives;
     protected Transform activeFormation;
+    protected int currentAlienFleet;
+    protected Dictionary<string,int> scoreTable;
+    protected int totalScore;
 
     //Awake é sempre chamado antes de qualquer método Start
     void Awake()
@@ -31,16 +38,23 @@ public class GalagaGameManager : MonoBehaviour {
 
     private void Start()
     {
+        currentAlienFleet = 0;
         playerLives = playerShipIconList.Length;
+        activeFormationIndex = 0;
+        scoreTable = new Dictionary<string, int>();
 
+        createFormation();
+        createEnemies();
+    }
+
+    protected void createFormation()
+    {
         //Cria a formação de acordo com o level
-        activeFormation = Instantiate<GameObject>(alienFormationList[LevelId]).transform;
+        activeFormation = Instantiate<GameObject>(alienFormationList[activeFormationIndex]).transform;
         //Atribui o canvas como parent do transform. Coloca ele dentro do canvas na arquitetura.
         activeFormation.parent = enemiesCanvas.transform;
         //Posiciona a formação no centro do canvas. Atenção para a atribução da localposition ao invés da position
         activeFormation.localPosition = Vector3.zero;
-
-        createEnemies();
     }
 
     protected void createEnemies()
@@ -53,6 +67,7 @@ public class GalagaGameManager : MonoBehaviour {
             GameObject alien = Instantiate(alienList[alienType]);
             alien.transform.localPosition = Vector3.zero;
             alien.transform.parent = item;
+            currentAlienFleet++;
         }
     }
 
@@ -64,8 +79,55 @@ public class GalagaGameManager : MonoBehaviour {
             gameOver();
     }
 
+    public int getTotalScore()
+    {
+        int score = 0;
+        foreach (var item in scoreTable)
+            score += item.Value;
+        return score;
+    }
+
+    public Dictionary<string,int> getScoreTable()
+    {
+        return scoreTable;
+    }
+
+    public void OnAlienHited(GameObject alienGameObject, Collider2D collider)
+    {
+        //Utiliza como Key o nome do sprite.
+        string alienType = alienGameObject.GetComponent<SpriteRenderer>().sprite.name;
+        
+        //Testa se já existe uma chave com o tipo do alien. Se já existe, só incrementa. Caso contrário, cria uma nova.
+        if (scoreTable.ContainsKey(alienType))
+            scoreTable[alienType] = scoreTable[alienType] + 1;
+        else
+            scoreTable.Add(alienType, 1);
+
+        //Atualiza HUD com o valor.
+        scorePanel.text = getTotalScore().ToString();
+
+        //Destruir o Alien
+        Destroy(alienGameObject);
+        //Destruir a partícula que o acertou
+        Destroy(collider.gameObject);
+
+        currentAlienFleet--;
+        if (currentAlienFleet == 0)
+        {
+            //Destroi a formação atual
+            Destroy(alienFormationList[activeFormationIndex]);
+            //troca para a próxima formação
+            activeFormationIndex++;
+            //Cria a formação
+            createFormation();
+            //Cria os aliens da formação
+            createEnemies();
+        }
+    }
+
+     
     private void gameOver()
     {
-        throw new NotImplementedException();
+        SceneManager.LoadScene(2);
     }
 }

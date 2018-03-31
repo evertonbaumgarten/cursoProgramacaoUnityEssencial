@@ -234,6 +234,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\Packages\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\Scripts\Aula7\EnemyBehaviour.cs" />
     <Compile Include="Assets\Scripts\Aula7\GalagaGameManager.cs" />
     <Compile Include="Assets\Scripts\Aula7\HorizontalInputMovimentBehaviour.cs" />
@@ -241,6 +251,15 @@
     <Compile Include="Assets\Scripts\Aula7\ShipCollisionBehaviour.cs" />
     <Compile Include="Assets\Scripts\Aula7\ShootingProjetile2DBehaviour.cs" />
     <Compile Include="Assets\Scripts\Aula8\AlienPositionSetupBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Aula8\ScoreItemCellPrefabHelperBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Aula8\ScorePanelBehaviour.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Packages\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\Packages\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\Packages\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+    <None Include="Assets\Packages\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\Packages\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
