@@ -15,14 +15,7 @@ public class EnemyBehaviour : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.tag == "Shoot")
-        {
-
             GalagaGameManager.instance.OnAlienHited(gameObject, collider);
-            //Se destroi
-            //Destroy(gameObject);
-            //Destroi também o projétil
-            //Destroy(collider.gameObject);
-        }
     }
 
     private void ShootPlayer()
