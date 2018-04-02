@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/Aula7/MainGame.unity
-  isLoaded: 1
-  isActive: 1
