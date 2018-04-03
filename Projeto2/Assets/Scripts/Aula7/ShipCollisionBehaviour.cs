@@ -7,6 +7,6 @@ public class ShipCollisionBehaviour : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag != "Shoot")
-            GalagaGameManager.instance.OnShipHited();
+            GalagaGameManager.instance.OnShipHited(other);
     }
 }

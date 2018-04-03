@@ -16,6 +16,8 @@ public class GalagaGameManager : MonoBehaviour {
     public GameObject[] alienList;
     public GameObject[] playerShipIconList;
     public Transform enemiesCanvas;
+    public GameObject alienExplosionPrefab;
+    public GameObject playerShip;
 
     public int LevelId = 0;
 
@@ -71,29 +73,23 @@ public class GalagaGameManager : MonoBehaviour {
         }
     }
 
-    public void OnShipHited()
+    public void OnShipHited(Collider2D collider)
     {
         playerLives--;
         playerShipIconList[playerLives].SetActive(false);
+        
+        //Destroi o projectile
+        Destroy(collider.gameObject);
+
+        playerShip.GetComponent<Animator>().SetTrigger("hited");
+
         if (playerLives == 0)
             gameOver();
     }
 
-    public int getTotalScore()
-    {
-        int score = 0;
-        foreach (var item in scoreTable)
-            score += item.Value;
-        return score;
-    }
-
-    public Dictionary<string,int> getScoreTable()
-    {
-        return scoreTable;
-    }
-
     public void OnAlienHited(GameObject alienGameObject, Collider2D collider)
     {
+        #region ScoreTable
         //Utiliza como Key o nome do sprite.
         string alienType = alienGameObject.GetComponent<SpriteRenderer>().sprite.name;
         
@@ -105,17 +101,22 @@ public class GalagaGameManager : MonoBehaviour {
 
         //Atualiza HUD com o valor.
         scorePanel.text = getTotalScore().ToString();
+        #endregion
+
+        //Cria a particula no mesmo local onde a nave alien está
+        GameObject particleExplosion = Instantiate<GameObject>(alienExplosionPrefab);
+        particleExplosion.transform.position = alienGameObject.transform.position;
 
         //Destruir o Alien
         Destroy(alienGameObject);
         //Destruir a partícula que o acertou
         Destroy(collider.gameObject);
-
+                
         currentAlienFleet--;
         if (currentAlienFleet == 0)
         {
             //Destroi a formação atual
-            Destroy(alienFormationList[activeFormationIndex]);
+            Destroy(activeFormation.gameObject);
             //troca para a próxima formação
             activeFormationIndex++;
             //Cria a formação
@@ -125,7 +126,19 @@ public class GalagaGameManager : MonoBehaviour {
         }
     }
 
-     
+    public int getTotalScore()
+    {
+        int score = 0;
+        foreach (var item in scoreTable)
+            score += item.Value;
+        return score;
+    }
+
+    public Dictionary<string, int> getScoreTable()
+    {
+        return scoreTable;
+    }
+
     private void gameOver()
     {
         SceneManager.LoadScene(2);
