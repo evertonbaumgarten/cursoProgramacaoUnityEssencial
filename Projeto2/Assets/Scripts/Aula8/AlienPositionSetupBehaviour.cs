@@ -10,7 +10,7 @@ public class AlienPositionSetupBehaviour : MonoBehaviour {
     private void OnDrawGizmos()
     {
         if(textureGuizmo)
-            Gizmos.DrawGUITexture(new Rect(transform.localPosition.x,transform.localPosition.y,256,256), textureGuizmo);
+            Gizmos.DrawGUITexture(new Rect(transform.position.x,transform.position.y, textureGuizmo.width, textureGuizmo.height), textureGuizmo);
         else
             Gizmos.DrawWireSphere(transform.position, 0.3f);
     }
