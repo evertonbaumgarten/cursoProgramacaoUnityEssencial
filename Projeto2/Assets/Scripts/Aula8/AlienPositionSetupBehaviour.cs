@@ -5,9 +5,13 @@ using UnityEngine;
 public class AlienPositionSetupBehaviour : MonoBehaviour {
 
     public GalagaGameManager.AlienType alienType;
+    public Texture textureGuizmo;
 
     private void OnDrawGizmos()
     {
-         Gizmos.DrawWireSphere(transform.position, 0.3f);
+        if(textureGuizmo)
+            Gizmos.DrawGUITexture(new Rect(transform.localPosition.x,transform.localPosition.y,256,256), textureGuizmo);
+        else
+            Gizmos.DrawWireSphere(transform.position, 0.3f);
     }
 }
