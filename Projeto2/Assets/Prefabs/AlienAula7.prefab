@@ -22,11 +22,11 @@ GameObject:
   - component: {fileID: 212565080567355698}
   - component: {fileID: 61433454922896514}
   - component: {fileID: 50906545635363850}
-  - component: {fileID: 114937284644934170}
+  - component: {fileID: 114841854250668308}
   - component: {fileID: 95668764195624120}
   - component: {fileID: 82821621573136278}
   m_Layer: 0
-  m_Name: Enemy3
+  m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114937284644934170
+--- !u!114 &114841854250668308
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -225,12 +225,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1553432415128684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca9231a6b7a8434282717f5e18044a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d26ab34c1e6d0c468a1aad44825a5d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1613136403420334, guid: 899e8320c4047ea47adfc7e02a2a70c6,
     type: 2}
-  projectileSpeed: 2
+  projectileSpeed: 4
 --- !u!212 &212565080567355698
 SpriteRenderer:
   m_ObjectHideFlags: 1
