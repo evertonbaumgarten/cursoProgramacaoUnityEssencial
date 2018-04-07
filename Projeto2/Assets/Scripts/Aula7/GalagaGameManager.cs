@@ -130,7 +130,7 @@ public class GalagaGameManager : MonoBehaviour {
     {
         int score = 0;
         foreach (var item in scoreTable)
-            score += item.Value;
+            score += item.Value; 
         return score;
     }
 

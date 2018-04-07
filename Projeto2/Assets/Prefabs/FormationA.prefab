@@ -669,6 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114035796642611044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -681,6 +682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114173480387414036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -693,6 +695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114228507053600292
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -705,6 +708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114278464557561774
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -717,6 +721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114351882953836486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -729,6 +734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114474103216450286
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -741,6 +747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114533126649143298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -753,6 +760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114554653553536558
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -765,6 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114557316402346010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -777,6 +786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114575892730070130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -789,6 +799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114576967288155310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -801,6 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114692022296428884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -813,6 +825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114704025816188956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -825,6 +838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114705008293411170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -837,6 +851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 2800000, guid: 04968eedb3f06fb478bf733d8fb53727, type: 3}
 --- !u!114 &114750531360805844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -849,6 +864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114776383540410398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -861,6 +877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114789666192356538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -873,6 +890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114833009500646850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -885,6 +903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114848725759951576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -897,3 +916,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienType: 1
+  textureGuizmo: {fileID: 0}
