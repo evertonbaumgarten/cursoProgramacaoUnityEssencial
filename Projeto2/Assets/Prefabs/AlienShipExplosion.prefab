@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 199805720918428266}
   - component: {fileID: 114826146346336838}
   m_Layer: 0
-  m_Name: CFX_Firework_Trails_Gravity
+  m_Name: AlienShipExplosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

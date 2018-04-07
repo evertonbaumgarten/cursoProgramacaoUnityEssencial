@@ -254,6 +254,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &437240242 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1286340151555212, guid: 944e379ee58e9bd4a916ce17152d92d1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1015418734}
+--- !u!95 &437240243
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 437240242}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8cbd59a1215423945844627c69a38b28, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &660535707
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +474,18 @@ Prefab:
     - target: {fileID: 4950420182202056, guid: 944e379ee58e9bd4a916ce17152d92d1, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950420182202056, guid: 944e379ee58e9bd4a916ce17152d92d1, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950420182202056, guid: 944e379ee58e9bd4a916ce17152d92d1, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950420182202056, guid: 944e379ee58e9bd4a916ce17152d92d1, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 944e379ee58e9bd4a916ce17152d92d1, type: 2}
@@ -947,6 +981,17 @@ Prefab:
       propertyPath: scorePanel
       value: 
       objectReference: {fileID: 1820748734}
+    - target: {fileID: 114039142060053386, guid: f3a1e82ad4e585b4989d06d82f68f6e3,
+        type: 2}
+      propertyPath: alienExplosionPrefab
+      value: 
+      objectReference: {fileID: 1984344547811698, guid: 796922ac214328f4080922dd59ac2c41,
+        type: 2}
+    - target: {fileID: 114039142060053386, guid: f3a1e82ad4e585b4989d06d82f68f6e3,
+        type: 2}
+      propertyPath: playerShip
+      value: 
+      objectReference: {fileID: 437240242}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3a1e82ad4e585b4989d06d82f68f6e3, type: 2}
   m_IsPrefabParent: 0
