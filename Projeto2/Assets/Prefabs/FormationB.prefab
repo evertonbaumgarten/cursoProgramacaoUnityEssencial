@@ -650,6 +650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114072631866230488
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -661,6 +663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114151970155175438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -672,6 +676,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114154225627919692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -683,6 +689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114175481864368754
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -694,6 +702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114242014022137160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -705,6 +715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114268832833590824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -716,6 +728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114358525571067228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -727,6 +741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114408278741432548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -738,6 +754,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114434714095112694
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -749,6 +767,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114481796008973986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -760,6 +780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114489486333337994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -771,6 +793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114494433006743066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -782,6 +806,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114607293981696450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -793,6 +819,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114625575666326028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -804,6 +832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114719005171513288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -815,6 +845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 2800000, guid: 5dbeeb739a7c5e2408cbc66eb20e3523, type: 3}
 --- !u!114 &114781302629988780
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -826,6 +858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114781747645680634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -837,6 +871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114890053900600550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -848,6 +884,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}
 --- !u!114 &114948733940265108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -859,3 +897,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e40920363706b4b9839751faae702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienType: 0
+  textureGuizmo: {fileID: 0}

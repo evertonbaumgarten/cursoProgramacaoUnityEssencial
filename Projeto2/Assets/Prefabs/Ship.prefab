@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114015736394963994}
   - component: {fileID: 61876703222550888}
   - component: {fileID: 50700394547572134}
+  - component: {fileID: 95801872282171810}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -90,6 +91,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
+--- !u!95 &95801872282171810
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286340151555212}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66129bdd9e67d0d4db67926a9be39446, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114015736394963994
 MonoBehaviour:
   m_ObjectHideFlags: 1
