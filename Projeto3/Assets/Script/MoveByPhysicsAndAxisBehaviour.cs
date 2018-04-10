@@ -10,10 +10,12 @@ public class MoveByPhysicsAndAxisBehaviour : MonoBehaviour {
     protected bool jumping=false;
     protected float xDirection;
     protected Rigidbody2D rb2d;
+    protected Animator anim;
 
     private void OnEnable()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,11 +26,9 @@ public class MoveByPhysicsAndAxisBehaviour : MonoBehaviour {
         if(xDirection != 0)
             rb2d.velocity = new Vector2 (xDirection * speed, rb2d.velocity.y) ;
 
-        if (Input.GetAxis("Jump") == 1 && !jumping)
-        {
-            Debug.Log("Jump!");
+        if (Input.GetAxis("Jump") == 1 && !anim.GetBool("jump"))
             rb2d.AddForce(Vector2.up * jumpDistance);
-        }
+
 
 
         //Debug.Log(GetComponent<Rigidbody2D>().velocity);
@@ -38,13 +38,13 @@ public class MoveByPhysicsAndAxisBehaviour : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log(collision.collider.tag);
-        if(collision.collider.tag=="Ground")
-            jumping = false;
+        if (collision.collider.tag == "Ground")
+            anim.SetBool("jump", false);
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.collider.tag == "Ground")
-            jumping = true;
+            anim.SetBool("jump", true);
     }
 }
