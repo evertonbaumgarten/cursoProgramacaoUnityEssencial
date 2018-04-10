@@ -1,0 +1,1018 @@
+fileFormatVersion: 2
+guid: aa88554464d0c084aa0b3f5515296273
+timeCreated: 1523326503
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tilemap24_diffuse_0
+    21300002: tilemap24_diffuse_1
+    21300004: tilemap24_diffuse_2
+    21300006: tilemap24_diffuse_3
+    21300008: tilemap24_diffuse_4
+    21300010: tilemap24_diffuse_5
+    21300012: tilemap24_diffuse_6
+    21300014: tilemap24_diffuse_7
+    21300016: tilemap24_diffuse_8
+    21300018: tilemap24_diffuse_9
+    21300020: tilemap24_diffuse_10
+    21300022: tilemap24_diffuse_11
+    21300024: tilemap24_diffuse_12
+    21300026: tilemap24_diffuse_13
+    21300028: tilemap24_diffuse_14
+    21300030: tilemap24_diffuse_15
+    21300032: tilemap24_diffuse_16
+    21300034: tilemap24_diffuse_17
+    21300036: tilemap24_diffuse_18
+    21300038: tilemap24_diffuse_19
+    21300040: tilemap24_diffuse_20
+    21300042: tilemap24_diffuse_21
+    21300044: tilemap24_diffuse_22
+    21300046: tilemap24_diffuse_23
+    21300048: tilemap24_diffuse_24
+    21300050: tilemap24_diffuse_25
+    21300052: tilemap24_diffuse_26
+    21300054: tilemap24_diffuse_27
+    21300056: tilemap24_diffuse_28
+    21300058: tilemap24_diffuse_29
+    21300060: tilemap24_diffuse_30
+    21300062: tilemap24_diffuse_31
+    21300064: tilemap24_diffuse_32
+    21300066: tilemap24_diffuse_33
+    21300068: tilemap24_diffuse_34
+    21300070: tilemap24_diffuse_35
+    21300072: tilemap24_diffuse_36
+    21300074: tilemap24_diffuse_37
+    21300076: tilemap24_diffuse_38
+    21300078: tilemap24_diffuse_39
+    21300080: tilemap24_diffuse_40
+    21300082: tilemap24_diffuse_41
+    21300084: tilemap24_diffuse_42
+    21300086: tilemap24_diffuse_43
+    21300088: tilemap24_diffuse_44
+    21300090: tilemap24_diffuse_45
+    21300092: tilemap24_diffuse_46
+    21300094: tilemap24_diffuse_47
+    21300096: tilemap24_diffuse_48
+    21300098: tilemap24_diffuse_49
+    21300100: tilemap24_diffuse_50
+    21300102: tilemap24_diffuse_51
+    21300104: tilemap24_diffuse_52
+    21300106: tilemap24_diffuse_53
+    21300108: tilemap24_diffuse_54
+    21300110: tilemap24_diffuse_55
+    21300112: tilemap24_diffuse_56
+    21300114: tilemap24_diffuse_57
+    21300116: tilemap24_diffuse_58
+    21300118: tilemap24_diffuse_59
+    21300120: tilemap24_diffuse_60
+    21300122: tilemap24_diffuse_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilemap24_diffuse_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 986
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 964
+        width: 72
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 928
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 928
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_4
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 976
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 976
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 976
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_7
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 976
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 976
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_9
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 951
+        width: 8
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_10
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 962
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 966
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 964
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 964
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_14
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 928
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_15
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 928
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 928
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_17
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 928
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_18
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 949
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 904
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 904
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 905
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 905
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_23
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 892
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_24
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 897
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_25
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 892
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_26
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 892
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_27
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 892
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_28
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 892
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_29
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 900
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_30
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 879
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_31
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 879
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_32
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 867
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_33
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 872
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 872
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_35
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 853
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 847
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 864
+        width: 72
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_38
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 847
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_39
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 847
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_40
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 847
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_41
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 862
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 850
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_43
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 850
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 850
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 850
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 832
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_47
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 832
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_48
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 837
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_49
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 832
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 832
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_51
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 832
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_52
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 819
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_53
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 819
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_54
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 819
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_55
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 819
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 784
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_57
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 724
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_58
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 781
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_59
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 757
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_60
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 755
+        width: 4
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tilemap24_diffuse_61
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 733
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 60065493840217910}
   - component: {fileID: 50955267887197618}
   m_Layer: 0
-  m_Name: bat-fly-01
+  m_Name: Bat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
