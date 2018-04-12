@@ -12,7 +12,6 @@ public class MoveByPhysicsAndAxisBehaviour : MonoBehaviour {
 
     public float speed;
     public float jumpDistance;
-    public Animator animator;
 
     protected bool jumping=false;
     protected Rigidbody2D rb2d;
@@ -28,27 +27,6 @@ public class MoveByPhysicsAndAxisBehaviour : MonoBehaviour {
     void FixedUpdate () {
 
         direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-
-
-        if (direction.x > 0 && !animator.GetCurrentAnimatorStateInfo(0).IsName("WalkingRight"))
-        {
-            animator.SetTrigger(EVENT_GO_RIGHT);
-            transform.localScale.Set(1, 1, 1);
-        }
-        else if (direction.x < 0 && !animator.GetCurrentAnimatorStateInfo(0).IsName("WalkingLeft"))
-        {
-            animator.SetTrigger(EVENT_GO_LEFT);
-            transform.localScale.Set(-1, 1, 1);
-        }
-        else if (direction.y > 0 && !animator.GetCurrentAnimatorStateInfo(0).IsName("WalkingUp"))
-        {
-            animator.SetTrigger(EVENT_GO_UP);
-        }
-        else if (direction.y < 0 && !animator.GetCurrentAnimatorStateInfo(0).IsName("WalkingDown"))
-        {
-            animator.SetTrigger(EVENT_GO_DOWN);
-        }else if(rb2d.velocity.magnitude ==0)
-            animator.SetTrigger(EVENT_STOP);
 
         rb2d.velocity = direction * speed;
 	}
