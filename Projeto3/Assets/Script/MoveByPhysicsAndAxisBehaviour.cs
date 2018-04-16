@@ -23,17 +23,24 @@ public class MoveByPhysicsAndAxisBehaviour : MonoBehaviour {
 
         xDirection = Input.GetAxis("Horizontal");
 
-        if(xDirection != 0)
-            rb2d.velocity = new Vector2 (xDirection * speed, rb2d.velocity.y) ;
+        if (xDirection != 0)
+        {
+            rb2d.velocity = new Vector2(xDirection * speed, rb2d.velocity.y);
+
+            if (xDirection > 0)
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            else
+                transform.rotation = Quaternion.Euler(0, 180,0);
+        }
 
         if (Input.GetAxis("Jump") == 1 && !anim.GetBool("jump"))
             rb2d.AddForce(Vector2.up * jumpDistance);
 
-
-
-        //Debug.Log(GetComponent<Rigidbody2D>().velocity);
-
-	}
+        if (rb2d.velocity.magnitude > 0 && !anim.GetBool("jump"))
+            anim.SetBool("walk", true);
+        else if(rb2d.velocity.magnitude == 0)
+            anim.SetBool("walk", false);
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
