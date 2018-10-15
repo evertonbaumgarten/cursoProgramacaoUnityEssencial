@@ -17,11 +17,11 @@ public class BallBehaviourSimple : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-		print("OnCollisionEnter2D"+ collision.collider.name);
+        print("OnCollisionEnter2D" + collision.collider.name);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-		print("OnTriggerEnter2D "+ other.name);
+        print("OnTriggerEnter2D " + other.name);
     }
 }
