@@ -5,12 +5,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameManagerBehaviour : MonoBehaviour {
+public class GameManagerUIBehaviour : MonoBehaviour {
 
     public GameObject paddle;
     public GameObject specialItemPrefab;
     public int specialItemInterval;
- 
+    public Text scorePanel;
+
     private int totalPoints = 0;
 
     // Use this for initialization
@@ -62,5 +63,6 @@ public class GameManagerBehaviour : MonoBehaviour {
     public void addPoint(int point)
     {
         totalPoints += point;
+        scorePanel.text = totalPoints.ToString();
     }
 }
