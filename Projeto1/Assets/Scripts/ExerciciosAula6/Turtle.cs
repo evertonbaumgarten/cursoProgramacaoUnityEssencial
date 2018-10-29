@@ -1,6 +1,7 @@
 ﻿
 public class Turtle {
-    
+    public static int turtleCounter=0;
+
     public string name;
     public string state;
     public int speed;
@@ -9,6 +10,7 @@ public class Turtle {
 	// Use this for initialization
 	public Turtle (string name) {
         this.name = name;
+        turtleCounter++;
 	}
 	
 	public void walk()

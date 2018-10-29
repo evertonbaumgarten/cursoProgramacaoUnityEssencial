@@ -23,7 +23,7 @@ public class GameManagerBehaviour : MonoBehaviour {
     {
         GameObject specialItemTemp = Instantiate<GameObject>(specialItemPrefab);
         specialItemTemp.transform.position = new Vector2(UnityEngine.Random.Range(-6, 6), UnityEngine.Random.Range(-4, 1));
-       // specialItemTemp.GetComponent<SpecialItemBehaviour>().gameManager = this;
+        //specialItemTemp.GetComponent<SpecialItemBehaviour>().gameManager = this;
     }
 
     public void gameOver()

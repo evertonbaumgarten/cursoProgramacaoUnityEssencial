@@ -11,8 +11,12 @@ public class MenuBehaviour : MonoBehaviour {
 
     public Button StartButton;
     public Button LevelButton;
+    public Button CreditButton;
+    public Button CreditCloseButton;
 
     public GameObject LevelPanel;
+    public GameObject CreditPanel;
+
     public GameObject LevelIzy;
     public GameObject LevelNormal;
     public GameObject LevelHard;
@@ -34,6 +38,16 @@ public class MenuBehaviour : MonoBehaviour {
     public void onLevelButtonClick()
     {
         LevelPanel.SetActive(true);
+    }
+
+    public void onCreditButtonClick()
+    {
+        CreditPanel.SetActive(true);
+    }
+
+    public void onCreditCloseButtonClick()
+    {
+        CreditPanel.SetActive(false);
     }
 
     public void onLevelChooseButtonClick(string option)

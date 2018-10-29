@@ -20,6 +20,7 @@ public class UsingObjects : MonoBehaviour {
         turtle2.walk();
         print(turtle2.ToString());
 
+        print(Turtle.turtleCounter);
         Vector2 position = new Vector2(1, 3);
  
     }

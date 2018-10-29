@@ -18,7 +18,7 @@ public class BallCollisionSoundBehaviour : MonoBehaviour {
         if (collision.collider.tag == "Wall" || collision.collider.tag == "Paddle")
             soundFXWall.Play();
         else if (collision.collider.tag == "Brick")
-            if(collision.collider.gameObject.GetComponent<BrickCrackBehaviour>().getLife() > 1)
+            if(collision.collider.GetComponent<BrickCrackBehaviour>().getLife() > 1)
                 soundFXBrickHit.Play();
             else
                 soundFXBrickBroken.Play();

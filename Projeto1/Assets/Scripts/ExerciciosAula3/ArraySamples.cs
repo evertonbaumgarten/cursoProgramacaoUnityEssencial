@@ -15,7 +15,7 @@ public class ArraySamples : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        print(">>>"+listaDeStringsComDezEspacos.Length);
+        print(">>>" + listaDeStringsComDezEspacos.Length);
         print(">>>" + listaDeStringsComDezItems.Length);
         print(">>>" + listaDeStringsComDezItems[0]);
        //print(listaDeInteiros.Length);
@@ -24,9 +24,4 @@ public class ArraySamples : MonoBehaviour {
             print(listaDeStringsComDezItems[i]);
 
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

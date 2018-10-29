@@ -7,6 +7,7 @@ public class BrickCrackBehaviour : MonoBehaviour
     //Vamos utilizar o conceito de lista/Array para armazenar as cores
     public Sprite[] spriteList;
     public int maxHits;
+
     protected int hitCounter;
 
     // Use this for initialization
