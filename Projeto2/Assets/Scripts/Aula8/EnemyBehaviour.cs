@@ -23,14 +23,14 @@ public class EnemyBehaviour : MonoBehaviour {
         GameObject projectileTemp = Instantiate<GameObject>(projectilePrefab);
         projectileTemp.GetComponent<ProjectileBehaviour>().Shoot(transform.position, Vector2.down, projectileSpeed);
 
-        int random = Random.Range(3, 15);
-        Invoke("Attack", random);
+        int random = Random.Range(3, 5);
+        Invoke("ShootPlayer", random);
     }
 
     private void Attack()
     {
         GetComponent<Animator>().SetTrigger("attack");
-        int random = Random.Range(3, 15);
-        Invoke("ShootPlayer", random);
+        int random = Random.Range(3, 5);
+        Invoke("ShootPlayer", 1);
     }
 }

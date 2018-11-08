@@ -54,7 +54,7 @@ public class GalagaGameManager : MonoBehaviour {
         //Cria a formação de acordo com o level
         activeFormation = Instantiate<GameObject>(alienFormationList[activeFormationIndex]).transform;
         //Atribui o canvas como parent do transform. Coloca ele dentro do canvas na arquitetura.
-        activeFormation.parent = enemiesCanvas.transform;
+        activeFormation.SetParent(enemiesCanvas.transform);
         //Posiciona a formação no centro do canvas. Atenção para a atribução da localposition ao invés da position
         activeFormation.localPosition = Vector3.zero;
     }
@@ -66,6 +66,7 @@ public class GalagaGameManager : MonoBehaviour {
         foreach (Transform item in activeFormation)
         {
             int alienType = (int)item.gameObject.GetComponent<AlienPositionSetupBehaviour>().alienType;
+            //string alienTypeString = item.gameObject.GetComponent<AlienPositionSetupBehaviour>().alienType.ToString();
             GameObject alien = Instantiate(alienList[alienType]);
             alien.transform.localPosition = Vector3.zero;
             alien.transform.parent = item;

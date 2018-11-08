@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class GalagaGameManagerSeven : MonoBehaviour {
     
     public static GalagaGameManagerSeven instance;
+
     public GameObject[] playerShipIconList;
 
     protected int playerLives;

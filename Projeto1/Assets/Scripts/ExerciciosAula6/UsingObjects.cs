@@ -24,6 +24,24 @@ public class UsingObjects : MonoBehaviour {
         Vector2 position = new Vector2(1, 3);
  
     }
-	
 
+    private void Update()
+    {
+        //Debug.Log("Update " + Time.deltaTime);
+    }
+
+    private void FixedUpdate()
+    {
+        Debug.Log("FixedUpdate " + Time.deltaTime);
+    }
+
+    private void OnDisable()
+    {
+        
+    }
+
+    private void OnEnable()
+    {
+        
+    }
 }
